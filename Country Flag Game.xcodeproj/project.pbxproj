@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		689E0F062B4DA59900E4C727 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F052B4DA59900E4C727 /* Question.swift */; };
 		68EDAFA32B4D9F3A0005EC03 /* Country_Flag_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EDAFA22B4D9F3A0005EC03 /* Country_Flag_GameApp.swift */; };
 		68EDAFA52B4D9F3A0005EC03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */; };
 		68EDAFA72B4D9F3D0005EC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EDAFA62B4D9F3D0005EC03 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		689E0F052B4DA59900E4C727 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		68EDAF9F2B4D9F3A0005EC03 /* Country Flag Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Flag Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EDAFA22B4D9F3A0005EC03 /* Country_Flag_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameApp.swift; sourceTree = "<group>"; };
 		68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		689E0F022B4DA44500E4C727 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		689E0F032B4DA48C00E4C727 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		689E0F042B4DA4A700E4C727 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				689E0F052B4DA59900E4C727 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		68EDAF962B4D9F3A0005EC03 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				68EDAFA22B4D9F3A0005EC03 /* Country_Flag_GameApp.swift */,
-				68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */,
+				689E0F022B4DA44500E4C727 /* Views */,
+				689E0F032B4DA48C00E4C727 /* Components */,
+				689E0F042B4DA4A700E4C727 /* Models */,
 				68EDAFA62B4D9F3D0005EC03 /* Assets.xcassets */,
 				68EDAFA82B4D9F3D0005EC03 /* Preview Content */,
 			);
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689E0F062B4DA59900E4C727 /* Question.swift in Sources */,
 				68EDAFA52B4D9F3A0005EC03 /* ContentView.swift in Sources */,
 				68EDAFA32B4D9F3A0005EC03 /* Country_Flag_GameApp.swift in Sources */,
 			);

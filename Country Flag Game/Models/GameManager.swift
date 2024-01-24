@@ -21,6 +21,8 @@ class GameManager: ObservableObject {
         reset()
     }
     func reset() {
+        loadQuestions()
+        goToNextQuestion()
         questions = questions.shuffled()
         index = 0
         score = 0
@@ -56,7 +58,7 @@ class GameManager: ObservableObject {
         }
     }
     
-    func goToNextQUestion() {
+    func goToNextQuestion() {
         if index < questions.count {
             answerSelected = false
             progress = CGFloat(index) / CGFloat(questions.count) * 350.0
@@ -68,6 +70,7 @@ class GameManager: ObservableObject {
             playingGame = false
         }
     }
+    
     func selectAnswer(answer: Answer) {
         answerSelected = true
         if answer.isCorrect {

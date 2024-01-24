@@ -11,9 +11,9 @@
 		689E0F082B4EEEF500E4C727 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F072B4EEEF500E4C727 /* CustomButton.swift */; };
 		689E0F0A2B4EF08200E4C727 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F092B4EF08200E4C727 /* ProgressBar.swift */; };
 		689E0F0C2B4EF1FA00E4C727 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F0B2B4EF1FA00E4C727 /* AnswerRow.swift */; };
-		689E0F0E2B50402100E4C727 /* Question View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F0D2B50402100E4C727 /* Question View.swift */; };
 		689E0F102B50424700E4C727 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F0F2B50424700E4C727 /* Data.swift */; };
 		689E0F142B582B6500E4C727 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F132B582B6500E4C727 /* GameManager.swift */; };
+		689E0F182B5EC02800E4C727 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E0F172B5EC02800E4C727 /* QuestionView.swift */; };
 		68EDAFA32B4D9F3A0005EC03 /* Country_Flag_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EDAFA22B4D9F3A0005EC03 /* Country_Flag_GameApp.swift */; };
 		68EDAFA52B4D9F3A0005EC03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */; };
 		68EDAFA72B4D9F3D0005EC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EDAFA62B4D9F3D0005EC03 /* Assets.xcassets */; };
@@ -25,9 +25,9 @@
 		689E0F072B4EEEF500E4C727 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		689E0F092B4EF08200E4C727 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		689E0F0B2B4EF1FA00E4C727 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
-		689E0F0D2B50402100E4C727 /* Question View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question View.swift"; sourceTree = "<group>"; };
 		689E0F0F2B50424700E4C727 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		689E0F132B582B6500E4C727 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		689E0F172B5EC02800E4C727 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		68EDAF9F2B4D9F3A0005EC03 /* Country Flag Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Flag Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EDAFA22B4D9F3A0005EC03 /* Country_Flag_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameApp.swift; sourceTree = "<group>"; };
 		68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				68EDAFA42B4D9F3A0005EC03 /* ContentView.swift */,
-				689E0F0D2B50402100E4C727 /* Question View.swift */,
+				689E0F172B5EC02800E4C727 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,12 +184,12 @@
 			files = (
 				689E0F082B4EEEF500E4C727 /* CustomButton.swift in Sources */,
 				689E0F142B582B6500E4C727 /* GameManager.swift in Sources */,
-				689E0F0E2B50402100E4C727 /* Question View.swift in Sources */,
 				689E0F062B4DA59900E4C727 /* Question.swift in Sources */,
 				68EDAFA52B4D9F3A0005EC03 /* ContentView.swift in Sources */,
 				689E0F0A2B4EF08200E4C727 /* ProgressBar.swift in Sources */,
 				689E0F0C2B4EF1FA00E4C727 /* AnswerRow.swift in Sources */,
 				68EDAFA32B4D9F3A0005EC03 /* Country_Flag_GameApp.swift in Sources */,
+				689E0F182B5EC02800E4C727 /* QuestionView.swift in Sources */,
 				689E0F102B50424700E4C727 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

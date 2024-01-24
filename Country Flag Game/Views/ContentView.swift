@@ -13,15 +13,15 @@ struct ContentView: View {
         NavigationView {
             VStack(spacing: 40 ,content:  {
                 VStack(spacing: 20, content: {
-                Text("Country Flag Game")
+                    Text("Country Flag Game")
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.yellow)
                     Text("Ready to test your skillz?")
                         .foregroundColor(.yellow)
                 })
-                NavigationLink{
-                    Question_View()
+                NavigationLink {
+                    QuestionView()
                         .environmentObject(gameManager)
                 } label: {
                     CustomButton(text: "Start")
